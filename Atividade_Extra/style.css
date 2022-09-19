@@ -1,0 +1,43 @@
+.muda-cor {
+    width: 600px;
+    height: 600px;
+}
+
+@media screen and (max-width: 1080px) {
+    .muda-cor {
+        background-color: hotpink;
+    }
+
+    .muda-cor h1:before{
+        content: "PINK";
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .muda-cor {
+        background-color: orange;
+    }
+
+    .muda-cor h1:before{
+        content: "LARANJA";
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .muda-cor {
+        background-color: mediumaquamarine;
+    }
+
+    .muda-cor h1:before{
+        content: "AQUAMARINE";
+    }
+}
+@media screen and (max-width: 1024px) {
+    .muda-cor {
+        background-color: cyan;
+    }
+
+    .muda-cor h1:before{
+        content: "CIANO";
+    }
+}
