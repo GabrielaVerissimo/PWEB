@@ -1,8 +1,8 @@
 //Função maior número
 function maior(){
-    var num1 = parseFloat(document.getElementById("numero1").value); 
-    var num2 = parseFloat(document.getElementById("numero2").value);
-    var num3 = parseFloat(document.getElementById("numero3").value);
+    var num1 = parseFloat(document.getElementById("n1").value); 
+    var num2 = parseFloat(document.getElementById("n2").value);
+    var num3 = parseFloat(document.getElementById("n3").value);
   
     if(num1 > num2){
         if(num2 > num3){
@@ -17,9 +17,9 @@ function maior(){
 
   //Função menor número
 function menor(){
-    var num1 = parseFloat(document.getElementById("numero1").value); 
-    var num2 = parseFloat(document.getElementById("numero2").value);
-    var num3 = parseFloat(document.getElementById("numero3").value);
+    var num1 = parseFloat(document.getElementById("n1").value); 
+    var num2 = parseFloat(document.getElementById("n2").value);
+    var num3 = parseFloat(document.getElementById("n3").value);
   
     if(num1 < num2){
         if(num2 < num3){
@@ -36,9 +36,9 @@ function menor(){
   function ordemCrescente(){
     
     //Entrada dos valores
-    var num1 = parseFloat(document.getElementById("numero1").value); 
-    var num2 = parseFloat(document.getElementById("numero2").value);
-    var num3 = parseFloat(document.getElementById("numero3").value);
+    var num1 = parseFloat(document.getElementById("n1").value); 
+    var num2 = parseFloat(document.getElementById("n2").value);
+    var num3 = parseFloat(document.getElementById("n3").value);
   
     //Processamento
     var aux = num1;
@@ -70,9 +70,9 @@ function menor(){
   function ordemDecrescente(){
     
     //Entrada dos valores
-    var num1 = parseFloat(document.getElementById("numero1").value); 
-    var num2 = parseFloat(document.getElementById("numero2").value);
-    var num3 = parseFloat(document.getElementById("numero3").value);
+    var num1 = parseFloat(document.getElementById("n1").value); 
+    var num2 = parseFloat(document.getElementById("n2").value);
+    var num3 = parseFloat(document.getElementById("n3").value);
   
     //Processamento
     var aux = num1;
