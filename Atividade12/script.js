@@ -1,0 +1,1 @@
+alert("Esta é uma janela interativa!\n\nVamos mexer com ela...");

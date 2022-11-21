@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Gabriela Verissimo" />
+  <link rel="stylesheet" href="style.css">
+  <title>Atividade 12</title>
+
+  <section>
+    <h1> JANELA INTERATIVA</h1>
+    <h2> Ação 1- Para abrir a janela, passe o mouse em cima dela.</h2>
+    <h2> Ação 2- Para quebrar a janela, clique em cima dela com o mouse.</h2>
+    <h2> Ação 3- Para restaurar a janela, é só retirar o mouse de cima da janela.</h2>
+   
+
+    <figure id="janela">
+      <img src="Images/janelafechada.png" onmouseover="this.src = 'Images/janelaaberta.png'"
+        onmouseout="this.src = 'Images/janelafechada.png'" onclick="this.src = 'Images/janelaquebra.png'">
+    </figure>
+  </section>
+</head>
+</html>
+
+<script scr="script.js"></script>
